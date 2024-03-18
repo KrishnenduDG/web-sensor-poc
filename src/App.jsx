@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div>
       <div style={{ background: "cyan" }}>
-        <h3>Accelerometer Reading</h3>
+        <h3>Accelerometer Reading (x,y,z)</h3>
         {isAccLoading ? (
           <h1>Acc Loading</h1>
         ) : accError ? (
@@ -26,7 +26,7 @@ const App = () => {
       </div>
 
       <div style={{ background: "pink" }}>
-        <h3>Gyroscope Reading</h3>
+        <h3>Gyroscope Reading (x,y,z)</h3>
         {isGyroLoading ? (
           <h1>Gyro Loading..</h1>
         ) : gyroError ? (
@@ -41,7 +41,7 @@ const App = () => {
       </div>
 
       <div style={{ background: "lightgreen" }}>
-        <h3>Gravity Sensor Reading Reading</h3>
+        <h3>Gravity Sensor Reading (x,y,z)</h3>
         {isGSLoading ? (
           <h1>Gravity Sensor Loading..</h1>
         ) : gsError ? (
